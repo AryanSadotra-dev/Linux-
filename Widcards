@@ -1,0 +1,38 @@
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ touch note_{1..5}.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ ls note*
+note_1.txt  note1.txt  note_2.txt  note2.txt  note_3.txt  note3.txt  note_4.txt  note4.txt  note_5.txt  note5.txt
+
+// basic operators
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ cp hi.txt hi_copy.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ mv hi_copy.txt ..
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ ls
+file1.txt  file3.txt  note_1.txt  note_2.txt  note_3.txt  note_4.txt  note_5.txt
+file2.txt  hi.txt     note1.txt   note2.txt   note3.txt   note4.txt   note5.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ rm file1.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ ls
+file2.txt  hi.txt      note1.txt   note2.txt   note3.txt   note4.txt   note5.txt
+file3.txt  note_1.txt  note_2.txt  note_3.txt  note_4.txt  note_5.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ rm *.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ ls
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ ls ..
+analysis.out  bobby     gmon.out  hi_copy.txt     pu.c        script.sh       sum
+aryan.c       cushanbh  heet      linux_practice  sccript.sh  script.sh.save  sum.c
