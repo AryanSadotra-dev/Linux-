@@ -1,1 +1,22 @@
+# these are the first day basic codes 
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~]
+└─$ mkdir linux_practice
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~]
+└─$ cd linux_practice
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ touch hi.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ ls
+hi.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ echo "ganne ka juice" > hi.txt
+
+┌──(cushanbhai㉿LAPTOP-Q7L8K7NB)-[~/linux_practice]
+└─$ cat hi.txt
+ganne ka juice
+
 
