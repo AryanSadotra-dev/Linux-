@@ -1,0 +1,60 @@
+Basic File Operations
+Now that we have some files to work with, let's learn how to copy, move, and delete them.
+
+Before proceeding, ensure you are in the /home/labex/project/linux_practice directory. If not, utilize the cd command to navigate to the correct directory.
+
+Let's copy hello.txt to a new file called hello_copy.txt:
+cp hello.txt hello_copy.txt
+ Explain Code
+cp stands for "copy". The first argument is the source file, the second is the destination.
+
+Now, let's move hello_copy.txt to the parent directory:
+mv hello_copy.txt ..
+ Explain Code
+mv stands for "move". The .. represents the parent directory (one level up).
+
+Let's remove file1.txt:
+rm file1.txt
+ Explain Code
+rm stands for "remove". Be careful with this command – in Linux, deleted files don't go to a Recycle Bin!
+
+List the contents of the current directory to see the changes:
+ls
+ Explain Code
+Now, list the contents of the parent directory to see the moved file:
+ls ..
+ Explain Code
+These commands – cp, mv, and rm – are some of the most frequently used in day-to-day Linux operations.
+
+Continue
+
+labby
+Labby
+Inspect Result
+Check if hello_copy.txt was created
+Check if file1.txt was deleted
+Check if hello_copy.txt was moved
+Continue
+
+labby
+Labby
+Using Command Line Shortcuts
+Linux provides several helpful shortcuts to make your command line experience more efficient. Let's try some of them:
+
+Use the up arrow key (↑) to recall the last command you typed. Try pressing it now – you should see your last command appear!
+
+Use Tab completion:
+Type cat h and then press the Tab key. It should auto-complete to cat hello.txt.
+This feature saves a lot of typing and helps prevent spelling mistakes.
+
+Use Ctrl+C to interrupt a running command:
+Type the following command and press Enter:
+
+tail -f /dev/null
+ Explain Code
+This command will wait for input indefinitely. Now press Ctrl+C to stop it. This is useful when a command is taking too long or you want to stop a continuous output.
+
+Use Ctrl+L to clear the screen:
+Your terminal might be getting cluttered. Press Ctrl+L to clear it and give yourself a fresh view.
+
+These shortcuts will make your Linux experience much smoother as you become more proficient.
